@@ -1,0 +1,295 @@
+body{
+    height: 870px;
+    background-image: url(background/back1.gif);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#maint{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    left: 39%;
+    color: whitesmoke;
+}
+
+#yuti{
+    position: absolute;
+    left: 32%;
+    top: 85px;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+    transition: width 1s, height 5s, background-color 2s, transform 2s;    
+}
+
+#aboutchat{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    transition: color 2s, width 1s, height 5s, background-color 5s, transform 5s;
+}
+
+#yuti:hover{
+    background-color: white;
+    animation: infinite;
+}
+
+#yuti:hover p{
+    color: black;
+    animation: infinite;
+}
+
+#yuti:hover h2{
+    color: black;
+    animation: infinite;
+}
+
+#yuti2{
+    position: absolute;
+    left: 30px;
+    top: 85px;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+    transition: color 3s, width 1s, height 5s, background-color 3s, transform 3s;    
+}
+
+#yuti2:hover{
+    background-color: beige;
+    animation: infinite;
+}
+
+#yuti2:hover p{
+    color: black;
+    animation: infinite;
+}
+
+#yuti2:hover h2{
+    color: black;
+    animation: infinite;
+}
+
+#updates{
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+}
+
+#yuti3{
+    position: absolute;
+    right: 140px;
+    top: 85px;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+    transition: color 1s, width 1s, height 5s, background-color 3s, transform 3s;
+}
+
+#yuti3:hover{
+    background-color: whitesmoke;
+    animation: infinite;
+}
+
+#state{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: whitesmoke;
+}
+
+#yuti3:hover p{
+    color: black;
+    animation: infinite;
+}
+
+#yuti3:hover h2{
+    color: black;
+    animation: infinite;
+}
+
+#static{
+    color: whitesmoke;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: absolute;
+    right: 150px;
+    top: -15px;
+}
+
+#updatest{
+    color: whitesmoke;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: absolute;
+    right: 150px;
+    top: -15px;
+}
+
+#aboutt{
+    color: whitesmoke;
+    font-family: 'Hanken Grotesk', sans-serif;
+    position: absolute;
+    right: 150px;
+    top: -15px;
+}
+
+#xazi{
+    position: absolute;
+    top: 63%;
+    width: 97%;
+    height: 3px;
+    background-color: white;
+}
+
+#allright{
+    position: absolute;
+    left: 250px;
+    top:500px;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+    transition: color 3s, width 1s, height 5s, background-color 3s, transform 3s;    
+}
+
+#allright:hover{
+    background-color: beige;
+    animation: infinite;
+}
+
+#allright:hover p{
+    color: black;
+    animation: infinite;
+}
+
+#allright:hover h2{
+    color: black;
+    animation: infinite;
+}
+
+#allright:hover a{
+    color: black;
+    animation: infinite;
+}
+
+#maintext{
+    color: white;
+    position:absolute;
+    right: 75px;
+}
+
+#aboutme{
+    color: whitesmoke;
+    position: absolute;
+    top: 60px;
+}
+
+a{
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+
+#contacts{
+    position: absolute;
+    right: 280px;
+    top:500px;
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+    transition: color 3s, width 1s, height 5s, background-color 3s, transform 3s;    
+}
+
+#contacts:hover{
+    background-color: beige;
+    animation: infinite;
+}
+
+#contacts:hover .fa-facebook{
+    color: white;
+}
+
+#contacts:hover .fa-google{
+    color: white;
+}
+
+#contacts:hover .fa-instagram{
+    color: whitesmoke;
+}
+
+#contacts:hover p{
+    color: black;
+    animation: infinite;
+}
+
+#contacts:hover h2{
+    color: black;
+    animation: infinite;
+}
+
+#contacts:hover a{
+    color: black;
+    animation: infinite;
+}
+
+#contt{
+    color: whitesmoke;
+    position: absolute;
+    left: 120px;
+}
+
+.fa {
+    position: relative;
+    top: 120px;
+    left: 40px;
+    padding: 20px;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    border-radius: 80px;
+}
+  
+  /* Add a hover effect if you want */
+.fa-facebook:hover {
+    background-color: #201c1c;
+    width: 50px;
+    border-radius: 100px;
+    animation: infinite;
+}
+  
+.fa-facebook {
+    background: blue;
+    color: whitesmoke;
+}
+
+.fa-instagram{
+    background: linear-gradient(to top, yellow, pink);
+    color: white;
+}
+
+.fa-google{
+    background: linear-gradient(to top, blue, red);
+    color: white;
+}
+
+.fa-google:hover{
+    background-color: black;
+    color: purple;
+    border: 100px;
+    animation: infinite;
+}
+
+.fa-instagram:hover{
+    background: red;
+    color: white;
+    border: 100px;
+    animation: infinite;
+}
